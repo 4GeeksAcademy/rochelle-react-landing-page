@@ -1,0 +1,13 @@
+.jumbotron {
+    padding: 2rem;
+    text-align: center;
+    background-color: #eee;
+  }
+
+  .jumbotron h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .jumbotron p {
+    margin-top: 0;
+  }

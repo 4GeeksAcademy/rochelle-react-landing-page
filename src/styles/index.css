@@ -1,12 +1,31 @@
 
-/* 
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1rem;
+  }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+  .card {
+    flex: 1;
+    max-width: calc(25% - 1rem);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
 
-*/
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card {
+      max-width: calc(50% - 1rem);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .cards-container {
+      flex-direction: column;
+    }
+    .card {
+      max-width: 100%;
+    }
+  }
