@@ -2,12 +2,15 @@
     padding: 2rem;
     text-align: center;
     background-color: #eee;
+    min-height: 300px;
   }
 
   .jumbotron h1 {
     margin-bottom: 0.5rem;
+    padding-top: 70px;
   }
 
   .jumbotron p {
     margin-top: 0;
+    padding-bottom: 70px;
   }
